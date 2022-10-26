@@ -15,5 +15,10 @@ pip install -r requirements.txt
 
 ## Features
 
-
+* Length dictionary urls with response - 70
+* Length dictionary short urls with origin - 53
+* The program  is covered with logs.
+* This program uses threads because it has many blocking I/O operations, such as the request URL.
+* The httpx modul is used instead of request because it works well with threads.
+* The program execution time is 38.94 second.
 
